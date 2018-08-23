@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
+
 body{
   background: #fff; 
   padding: 50px; 
 }
 
-.container{
-  background:black; 
+div#container{
+  background:#202020;  
+  color: white; 
   width: 70%; 
   margin: 0 auto 4px auto; 
   padding: 1em; 
   box-shadow: 1px 1px 0 black; 
+  font-family: 'Overpass Mono', monospace;
+  font-size: 25px; 
 }
 
 span.left {
